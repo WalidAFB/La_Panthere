@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus {
+    border: 2px dotted black;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -449,6 +453,10 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.btn:focus {
+    border: 2px dotted black
+}
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
@@ -516,7 +524,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
