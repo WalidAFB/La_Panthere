@@ -10,16 +10,11 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
-}
-
-a:focus {
-    border: 2px dotted black;
+    text-decoration: underline;
 }
 
 #page-loading-blocs-notifaction {
@@ -155,6 +150,7 @@ a:focus {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -453,9 +449,6 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
-.btn:focus {
-    border: 2px dotted black
-}
 
 .btn.pull-right {
     margin: 0 0 5px 5px;
@@ -466,10 +459,6 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none!important;
 }
 
 .btn-rd {
@@ -711,6 +700,7 @@ p {
     margin: auto auto auto auto;
 }
 
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -778,19 +768,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C55016;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C55016;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
+    text-decoration: underline;
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -804,7 +795,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #C55016!important;
 }
 
 .ltc-atomic-tangerine:hover {

@@ -3690,7 +3690,6 @@ textarea.input-lg {
 .btn:focus,
 .btn:hover {
     color: #333;
-    text-decoration: none
 }
 
 .btn.active,
@@ -4348,7 +4347,6 @@ tbody.collapse.in {
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
     color: #262626;
-    text-decoration: none;
     background-color: #f5f5f5
 }
 
@@ -4369,7 +4367,6 @@ tbody.collapse.in {
 
 .dropdown-menu>.disabled>a:focus,
 .dropdown-menu>.disabled>a:hover {
-    text-decoration: none;
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
@@ -4849,7 +4846,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    text-decoration: none;
     background-color: #eee
 }
 
@@ -4860,7 +4856,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li.disabled>a:focus,
 .nav>li.disabled>a:hover {
     color: #777;
-    text-decoration: none;
     cursor: not-allowed;
     background-color: transparent
 }
